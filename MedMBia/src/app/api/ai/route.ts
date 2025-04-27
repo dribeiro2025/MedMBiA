@@ -189,6 +189,7 @@ Ao final, indique qual especialidade médica foi detectada (se automática) e fo
 async function gerarPlanoEstrategico(dadosEntrada: any, apiKey: string) {
   try {
     const data = dadosEntrada; // Renomeando para evitar o erro de uso antes da declaração
+    
     const prompt = `
 # Contexto
 Você é um consultor especializado em estratégia de marketing e posicionamento para médicos, treinado na metodologia "Transformando o Marketing em Estratégia Intencional" de Rafael Trotta.
